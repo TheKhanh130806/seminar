@@ -11,7 +11,7 @@
 | 1 | Kiên | Tổng quan và giới thiệu; làm slide |
 | 2 | Kiệt | Chức năng cơ bản và ứng dụng; cài đặt |
 | 3 | Khôi | Kiến trúc và nguyên lý hoạt động |
-| 4 | Khánh | Code demo |
+| 4 | Khánh | Chuẩn bị Code và chạy Demo |
 
 ## Giới thiệu đề tài
 
