@@ -18,13 +18,24 @@ CREATE TABLE IF NOT EXISTS tai_khoan (
   UNIQUE KEY duy_nhat_email (email)
 ) ENGINE=InnoDB;
 
+-- Tài khoản quản trị cho demo; mật khẩu được băm bằng bcrypt.
+-- Nếu email đã tồn tại, cập nhật mật khẩu và quyền quản trị.
+INSERT INTO tai_khoan (email, mat_khau_bam, vai_tro)
+VALUES (
+  'admin@gmail.com',
+  '$2y$10$B9KafP8riorLJ0PHKiLijurtnb9iqdrsr/9aI2LGQ4F03oCX/hXki',
+  'quan_tri'
+)
+ON DUPLICATE KEY UPDATE
+  mat_khau_bam = VALUES(mat_khau_bam),
+  vai_tro = VALUES(vai_tro);
+
 -- Backend cần loại bỏ khoảng trắng ở hai đầu và chuyển địa chỉ thư điện tử
 -- sang chữ thường trước khi lưu và tìm kiếm.
 -- Chỉ lưu mật khẩu đã băm bằng Argon2id hoặc bcrypt từ backend.
 -- Khi đăng nhập: tìm tài khoản theo email bằng truy vấn có tham số,
 -- rồi dùng hàm verify của thư viện băm để kiểm tra mật khẩu.
 -- Không so sánh mật khẩu dạng văn bản trực tiếp trong SQL.
--- Không thêm tài khoản mẫu vì chưa có backend để tạo mật khẩu đã băm.
 -- vai_tro: khach_hang = khách hàng, quan_tri = quản trị viên.
 -- Backend phải kiểm tra vai trò trước khi thực hiện chức năng quản trị.
 -- Khi đăng ký, backend tự gán khach_hang, không nhận vai trò từ trình duyệt.
