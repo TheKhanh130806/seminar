@@ -1,0 +1,3 @@
+<FilesMatch "^(bootstrap|content|create-admin)\.php$">
+  Require all denied
+</FilesMatch>

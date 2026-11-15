@@ -1,0 +1,48 @@
+* { box-sizing: border-box; }
+html { height: 100%; }
+body {
+  margin: 0;
+  height: 100vh;
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+  background: #292929;
+  color: #fff;
+}
+.editor-toolbar {
+  flex: 0 0 auto;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 12px 18px;
+  flex-wrap: wrap;
+}
+.editor-toolbar strong { margin-right: auto; }
+.editor-toolbar button, .editor-toolbar select {
+  padding: 9px 12px;
+  border: 0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.editor-toolbar button:disabled { opacity: .5; cursor: wait; }
+#publish { background: #3aa647; color: #fff; }
+.editor-toolbar a { color: #b7e271; font-size: 14px; }
+#editor-status {
+  flex: 0 0 auto;
+  margin: 0;
+  padding: 8px 18px;
+  background: #1d211e;
+  font-size: 13px;
+  min-height: 32px;
+}
+/* GrapesJS positions its canvas absolutely; give it the remaining viewport
+   height even when the toolbar wraps onto multiple lines. */
+#editor {
+  position: relative;
+  flex: 1 1 0;
+  min-height: 0;
+  width: 100%;
+  overflow: hidden;
+}

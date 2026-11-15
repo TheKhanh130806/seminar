@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Đăng nhập | LeaFood Organic</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/style.css" />
+  <link rel="stylesheet" href="../css/login.css" />
+</head>
+<body class="login-page">
+  <header class="login-header container">
+    <a class="logo" href="index.php" aria-label="LeaFood — Trang chủ">
+      <span class="logo-mark" aria-hidden="true">🌿</span>
+      <div><h2>LeaFood</h2><span>Organic</span></div>
+    </a>
+    <a class="back-link" href="index.php">← Về trang chủ</a>
+  </header>
+
+  <main class="login-layout container">
+    <section class="login-story" aria-labelledby="story-title">
+      <span class="story-tag">TƯƠI NGON MỖI NGÀY</span>
+      <h1 id="story-title">Sống xanh hơn.<br>Ăn lành hơn.</h1>
+      <p>Những lựa chọn tươi ngon từ thiên nhiên, dành riêng cho bạn và gia đình.</p>
+      <div class="produce-art" aria-hidden="true"><span>🥑</span><span>🥦</span><span>🍊</span></div>
+      <div class="story-note"><span aria-hidden="true">🌱</span><div><strong>Từ nông trại đến bàn ăn</strong><small>Tươi sạch, tự nhiên và đầy dinh dưỡng.</small></div></div>
+    </section>
+
+    <section class="login-card" aria-labelledby="login-title">
+      <span class="eyebrow">CHÀO MỪNG TRỞ LẠI</span>
+      <h2 id="login-title">Đăng nhập</h2>
+      <p class="login-intro">Tiếp tục hành trình mua sắm xanh cùng LeaFood.</p>
+
+      <form id="loginForm" novalidate>
+        <div class="form-field">
+          <label for="email">Địa chỉ email</label>
+          <input id="email" name="email" type="email" autocomplete="username" placeholder="ban@example.com" required aria-describedby="emailError" />
+          <small class="field-error" id="emailError"></small>
+        </div>
+        <div class="form-field">
+          <label for="password">Mật khẩu</label>
+          <div class="password-field">
+            <input id="password" name="password" type="password" autocomplete="current-password" placeholder="Nhập mật khẩu của bạn" required aria-describedby="passwordError" />
+            <button id="togglePassword" type="button" aria-label="Hiện mật khẩu" aria-pressed="false">Hiện</button>
+          </div>
+          <small class="field-error" id="passwordError"></small>
+        </div>
+        <button class="login-submit" type="submit">Đăng nhập <span aria-hidden="true">→</span></button>
+        <p id="loginStatus" class="login-status" role="status" aria-live="polite"></p>
+      </form>
+      <p class="login-help">Cần hỗ trợ? <a href="mailto:hello@leafood.com">Liên hệ LeaFood</a></p>
+      <div class="login-assurance"><span aria-hidden="true">✦</span> Một lựa chọn nhỏ, một cuộc sống xanh hơn.</div>
+    </section>
+  </main>
+  <footer class="login-footer">© LeaFood Organic. Tươi ngon từ thiên nhiên.</footer>
+  <script src="../js/login.js"></script>
+</body>
+</html>
