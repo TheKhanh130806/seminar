@@ -14,6 +14,7 @@ try { admin(); } catch (Throwable $e) { http_response_code(503); exit('Không th
 <body>
   <header class="editor-toolbar">
     <strong>LeaFood · Chỉnh sửa trang</strong>
+    <button id="assets" type="button" disabled>Asset Manager</button>
     <button id="save" disabled>Lưu nháp</button><button id="publish" disabled>Xuất bản trang</button>
     <button id="reset" disabled>Khôi phục mặc định</button>
     <a href="index.php" target="_blank" rel="noopener">Xem trang chủ ↗</a>

@@ -3,6 +3,7 @@ const message = document.getElementById('editor-status');
 const saveButton = document.getElementById('save');
 const publishButton = document.getElementById('publish');
 const resetButton = document.getElementById('reset');
+const assetsButton = document.getElementById('assets');
 let editor, token, savedPage = null, template, busy = false, needsSave = false;
 const requiredIds = ['productGrid', 'cartPanel', 'cartItems', 'cartCount', 'cartTotal', 'panelCartTotal', 'closeCart', 'overlay'];
 
@@ -69,8 +70,12 @@ async function store(action) {
 async function init() {
   try {
     if (!window.grapesjs) throw new Error('Không tải được GrapesJS. Kiểm tra kết nối Internet và tải lại trang.');
-    const data = await request('../../backend/editor.php');
+    const [data, assetData] = await Promise.all([
+      request('../../backend/editor.php'),
+      request('../../backend/assets.php')
+    ]);
     token = data.csrf;
+    data.assets = assetData.assets || [];
     savedPage = data.page || data.sections?.page || null;
     const response = await fetch('index.html', { cache: 'no-store' });
     if (!response.ok) throw new Error('Không tải được mẫu trang chủ.');
@@ -81,6 +86,17 @@ async function init() {
       container: '#editor',
       height: '100%',
       storageManager: false,
+      assetManager: {
+        assets: data.assets || [],
+        upload: '../../backend/assets.php',
+        uploadName: 'files',
+        multiUpload: true,
+        autoAdd: true,
+        headers: { 'X-CSRF-Token': token },
+        params: { _csrf: token },
+        uploadText: 'Kéo ảnh vào đây hoặc bấm để tải lên (JPG, PNG, GIF, WebP · tối đa 10 MB/ảnh)',
+        style: { width: '100%', height: '100%' }
+      },
       parser: { optionsHtml: { allowScripts: false, allowUnsafeAttr: false } },
       canvas: { styles: [new URL('../css/style.css', location.href).href, 'https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap'] },
       deviceManager: {
@@ -116,6 +132,7 @@ async function init() {
         loadPage();
         editor.refresh();
         saveButton.disabled = publishButton.disabled = resetButton.disabled = false;
+        assetsButton.disabled = false;
         message.textContent = 'Chế độ chỉnh sửa toàn trang: Nhấp đúp để sửa chữ, kéo thả khối từ góc phải, hoặc sửa trực tiếp sản phẩm/banner.';
       } catch (error) {
         message.textContent = `Không thể mở trình chỉnh sửa: ${error.message}`;
@@ -126,6 +143,7 @@ async function init() {
     editorResize.observe(document.getElementById('editor'));
 
     saveButton.addEventListener('click', () => store('save'));
+    assetsButton.addEventListener('click', () => editor.AssetManager.open());
     publishButton.addEventListener('click', () => {
       if (confirm('Xuất bản toàn bộ trang này lên trang chủ?')) store('publish');
     });

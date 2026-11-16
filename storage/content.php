@@ -809,7 +809,7 @@
           array (
             'selectors' => 
             array (
-              0 => '#ikvr3f',
+              0 => '#i0lt0i',
             ),
             'style' => 
             array (
@@ -820,7 +820,7 @@
           array (
             'selectors' => 
             array (
-              0 => '#i1lybi',
+              0 => '#ir0ujt',
             ),
             'style' => 
             array (
@@ -831,7 +831,7 @@
           array (
             'selectors' => 
             array (
-              0 => '#ik7hfj',
+              0 => '#i25lx6',
             ),
             'style' => 
             array (
@@ -842,7 +842,7 @@
           array (
             'selectors' => 
             array (
-              0 => '#ivrlr2',
+              0 => '#ihr3dd',
             ),
             'style' => 
             array (
@@ -853,7 +853,7 @@
           array (
             'selectors' => 
             array (
-              0 => '#i7vhoq',
+              0 => '#ijbb7p',
             ),
             'style' => 
             array (
@@ -864,7 +864,7 @@
           array (
             'selectors' => 
             array (
-              0 => '#ibfy2b',
+              0 => '#i84otd',
             ),
             'style' => 
             array (
@@ -875,7 +875,7 @@
           array (
             'selectors' => 
             array (
-              0 => '#ij9mbn',
+              0 => '#ia4ntf',
             ),
             'style' => 
             array (
@@ -886,46 +886,11 @@
           array (
             'selectors' => 
             array (
-              0 => '#i3tzjp',
+              0 => '#ibyyrh',
             ),
             'style' => 
             array (
               'color' => '#9a9a9a',
-            ),
-          ),
-          8 => 
-          array (
-            'selectors' => 
-            array (
-              0 => '#ig3uwl',
-            ),
-            'style' => 
-            array (
-              'font-family' => 'Arial, Helvetica, sans-serif',
-            ),
-          ),
-          9 => 
-          array (
-            'selectors' => 
-            array (
-              0 => 'banner',
-              1 => 'banner-orange',
-            ),
-            'style' => 
-            array (
-              'float' => 'left',
-            ),
-          ),
-          10 => 
-          array (
-            'selectors' => 
-            array (
-              0 => 'juice',
-            ),
-            'style' => 
-            array (
-              'float' => 'none',
-              'border' => '0px solid black',
             ),
           ),
         ),
@@ -1531,14 +1496,13 @@
                                       'attributes' => 
                                       array (
                                         'href' => 'tel:1238800555',
-                                        'id' => 'i4bpp',
                                       ),
                                       'components' => 
                                       array (
                                         0 => 
                                         array (
                                           'type' => 'textnode',
-                                          'content' => '☎  123456789',
+                                          'content' => '☎   (123) 8800-555',
                                         ),
                                       ),
                                     ),
@@ -1766,10 +1730,6 @@
                                     array (
                                       'tagName' => 'h1',
                                       'type' => 'text',
-                                      'attributes' => 
-                                      array (
-                                        'id' => 'iy0gu',
-                                      ),
                                       'components' => 
                                       array (
                                         0 => 
@@ -2050,10 +2010,6 @@
                                     array (
                                       'tagName' => 'h2',
                                       'type' => 'text',
-                                      'attributes' => 
-                                      array (
-                                        'id' => 'ix2y0o',
-                                      ),
                                       'components' => 
                                       array (
                                         0 => 
@@ -2086,6 +2042,26 @@
                                         ),
                                       ),
                                     ),
+                                    3 => 
+                                    array (
+                                      'type' => 'link',
+                                      'classes' => 
+                                      array (
+                                        0 => 'shop-btn',
+                                      ),
+                                      'attributes' => 
+                                      array (
+                                        'href' => '#products',
+                                      ),
+                                      'components' => 
+                                      array (
+                                        0 => 
+                                        array (
+                                          'type' => 'textnode',
+                                          'content' => 'See All →',
+                                        ),
+                                      ),
+                                    ),
                                   ),
                                 ),
                                 1 => 
@@ -2093,6 +2069,43 @@
                                   'classes' => 
                                   array (
                                     0 => 'banner-art',
+                                  ),
+                                  'components' => 
+                                  array (
+                                    0 => 
+                                    array (
+                                      'tagName' => 'span',
+                                      'type' => 'text',
+                                      'classes' => 
+                                      array (
+                                        0 => 'juice',
+                                      ),
+                                      'components' => 
+                                      array (
+                                        0 => 
+                                        array (
+                                          'type' => 'textnode',
+                                          'content' => '🧃',
+                                        ),
+                                      ),
+                                    ),
+                                    1 => 
+                                    array (
+                                      'tagName' => 'span',
+                                      'type' => 'text',
+                                      'classes' => 
+                                      array (
+                                        0 => 'orange-fruit',
+                                      ),
+                                      'components' => 
+                                      array (
+                                        0 => 
+                                        array (
+                                          'type' => 'textnode',
+                                          'content' => '🍊',
+                                        ),
+                                      ),
+                                    ),
                                   ),
                                 ),
                               ),
@@ -2151,10 +2164,6 @@
                                     array (
                                       'tagName' => 'h2',
                                       'type' => 'text',
-                                      'attributes' => 
-                                      array (
-                                        'id' => 'ig3uwl',
-                                      ),
                                       'components' => 
                                       array (
                                         0 => 
@@ -2333,10 +2342,6 @@
                                     array (
                                       'tagName' => 'span',
                                       'type' => 'text',
-                                      'attributes' => 
-                                      array (
-                                        'id' => 'ihwafg',
-                                      ),
                                       'components' => 
                                       array (
                                         0 => 
@@ -2734,7 +2739,7 @@
                                                   'type' => 'text',
                                                   'attributes' => 
                                                   array (
-                                                    'id' => 'ikvr3f',
+                                                    'id' => 'i0lt0i',
                                                   ),
                                                   'components' => 
                                                   array (
@@ -2933,7 +2938,7 @@
                                                   'type' => 'text',
                                                   'attributes' => 
                                                   array (
-                                                    'id' => 'i1lybi',
+                                                    'id' => 'ir0ujt',
                                                   ),
                                                   'components' => 
                                                   array (
@@ -3132,7 +3137,7 @@
                                                   'type' => 'text',
                                                   'attributes' => 
                                                   array (
-                                                    'id' => 'ik7hfj',
+                                                    'id' => 'i25lx6',
                                                   ),
                                                   'components' => 
                                                   array (
@@ -3331,7 +3336,7 @@
                                                   'type' => 'text',
                                                   'attributes' => 
                                                   array (
-                                                    'id' => 'ivrlr2',
+                                                    'id' => 'ihr3dd',
                                                   ),
                                                   'components' => 
                                                   array (
@@ -3530,7 +3535,7 @@
                                                   'type' => 'text',
                                                   'attributes' => 
                                                   array (
-                                                    'id' => 'i7vhoq',
+                                                    'id' => 'ijbb7p',
                                                   ),
                                                   'components' => 
                                                   array (
@@ -3729,7 +3734,7 @@
                                                   'type' => 'text',
                                                   'attributes' => 
                                                   array (
-                                                    'id' => 'ibfy2b',
+                                                    'id' => 'i84otd',
                                                   ),
                                                   'components' => 
                                                   array (
@@ -3928,7 +3933,7 @@
                                                   'type' => 'text',
                                                   'attributes' => 
                                                   array (
-                                                    'id' => 'ij9mbn',
+                                                    'id' => 'ia4ntf',
                                                   ),
                                                   'components' => 
                                                   array (
@@ -4127,7 +4132,7 @@
                                                   'type' => 'text',
                                                   'attributes' => 
                                                   array (
-                                                    'id' => 'i3tzjp',
+                                                    'id' => 'ibyyrh',
                                                   ),
                                                   'components' => 
                                                   array (
@@ -4529,6 +4534,301 @@
                                 ),
                               ),
                             ),
+                            1 => 
+                            array (
+                              'tagName' => 'p',
+                              'type' => 'text',
+                              'components' => 
+                              array (
+                                0 => 
+                                array (
+                                  'type' => 'textnode',
+                                  'content' => 'Nội dung mới của bạn',
+                                ),
+                              ),
+                            ),
+                            2 => 
+                            array (
+                              'tagName' => 'section',
+                              'classes' => 
+                              array (
+                                0 => 'section',
+                                1 => 'container',
+                              ),
+                              'components' => 
+                              array (
+                                0 => 
+                                array (
+                                  'tagName' => 'h2',
+                                  'type' => 'text',
+                                  'components' => 
+                                  array (
+                                    0 => 
+                                    array (
+                                      'type' => 'textnode',
+                                      'content' => 'Khám phá LeaFood',
+                                    ),
+                                  ),
+                                ),
+                                1 => 
+                                array (
+                                  'tagName' => 'p',
+                                  'type' => 'text',
+                                  'components' => 
+                                  array (
+                                    0 => 
+                                    array (
+                                      'type' => 'textnode',
+                                      'content' => 'Nội dung của bạn',
+                                    ),
+                                  ),
+                                ),
+                                2 => 
+                                array (
+                                  'tagName' => 'article',
+                                  'classes' => 
+                                  array (
+                                    0 => 'banner',
+                                    1 => 'banner-green',
+                                  ),
+                                  'components' => 
+                                  array (
+                                    0 => 
+                                    array (
+                                      'tagName' => 'h2',
+                                      'type' => 'text',
+                                      'components' => 
+                                      array (
+                                        0 => 
+                                        array (
+                                          'type' => 'textnode',
+                                          'content' => 'Tiêu đề mới',
+                                        ),
+                                      ),
+                                    ),
+                                    1 => 
+                                    array (
+                                      'classes' => 
+                                      array (
+                                        0 => 'banner-content',
+                                      ),
+                                      'components' => 
+                                      array (
+                                        0 => 
+                                        array (
+                                          'tagName' => 'span',
+                                          'type' => 'text',
+                                          'classes' => 
+                                          array (
+                                            0 => 'sale',
+                                          ),
+                                          'components' => 
+                                          array (
+                                            0 => 
+                                            array (
+                                              'type' => 'textnode',
+                                              'content' => 'NEW DEAL',
+                                            ),
+                                          ),
+                                        ),
+                                        1 => 
+                                        array (
+                                          'tagName' => 'h2',
+                                          'type' => 'text',
+                                          'components' => 
+                                          array (
+                                            0 => 
+                                            array (
+                                              'type' => 'textnode',
+                                              'content' => 'Ưu đãi mới',
+                                            ),
+                                          ),
+                                        ),
+                                        2 => 
+                                        array (
+                                          'tagName' => 'section',
+                                          'classes' => 
+                                          array (
+                                            0 => 'section',
+                                            1 => 'container',
+                                          ),
+                                          'components' => 
+                                          array (
+                                            0 => 
+                                            array (
+                                              'tagName' => 'h2',
+                                              'type' => 'text',
+                                              'components' => 
+                                              array (
+                                                0 => 
+                                                array (
+                                                  'type' => 'textnode',
+                                                  'content' => 'Khám phá LeaFood',
+                                                ),
+                                              ),
+                                            ),
+                                            1 => 
+                                            array (
+                                              'tagName' => 'p',
+                                              'type' => 'text',
+                                              'components' => 
+                                              array (
+                                                0 => 
+                                                array (
+                                                  'type' => 'textnode',
+                                                  'content' => 'Nội dung của bạn',
+                                                ),
+                                              ),
+                                            ),
+                                          ),
+                                        ),
+                                        3 => 
+                                        array (
+                                          'tagName' => 'p',
+                                          'type' => 'text',
+                                          'components' => 
+                                          array (
+                                            0 => 
+                                            array (
+                                              'type' => 'textnode',
+                                              'content' => 'Mô tả ngắn gọn tại đây.',
+                                            ),
+                                          ),
+                                        ),
+                                        4 => 
+                                        array (
+                                          'type' => 'link',
+                                          'classes' => 
+                                          array (
+                                            0 => 'shop-btn',
+                                          ),
+                                          'attributes' => 
+                                          array (
+                                            'href' => '#products',
+                                          ),
+                                          'components' => 
+                                          array (
+                                            0 => 
+                                            array (
+                                              'type' => 'textnode',
+                                              'content' => 'Xem ngay →',
+                                            ),
+                                          ),
+                                        ),
+                                      ),
+                                    ),
+                                    2 => 
+                                    array (
+                                      'classes' => 
+                                      array (
+                                        0 => 'banner-art',
+                                      ),
+                                      'components' => 
+                                      array (
+                                        0 => 
+                                        array (
+                                          'type' => 'image',
+                                          'resizable' => 
+                                          array (
+                                            'ratioDefault' => 1,
+                                          ),
+                                          'attributes' => 
+                                          array (
+                                            'src' => 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwwLDAsMC4xNSk7IHRyYW5zZm9ybTogc2NhbGUoMC43NSkiPgogICAgICAgIDxwYXRoIGQ9Ik04LjUgMTMuNWwyLjUgMyAzLjUtNC41IDQuNSA2SDVtMTYgMVY1YTIgMiAwIDAgMC0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnoiPjwvcGF0aD4KICAgICAgPC9zdmc+',
+                                          ),
+                                        ),
+                                        1 => 
+                                        array (
+                                          'tagName' => 'p',
+                                          'type' => 'text',
+                                          'components' => 
+                                          array (
+                                            0 => 
+                                            array (
+                                              'type' => 'textnode',
+                                              'content' => 'Nội dung mới của bạn',
+                                            ),
+                                          ),
+                                        ),
+                                        2 => 
+                                        array (
+                                          'type' => 'image',
+                                          'resizable' => 
+                                          array (
+                                            'ratioDefault' => 1,
+                                          ),
+                                          'attributes' => 
+                                          array (
+                                            'src' => 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwwLDAsMC4xNSk7IHRyYW5zZm9ybTogc2NhbGUoMC43NSkiPgogICAgICAgIDxwYXRoIGQ9Ik04LjUgMTMuNWwyLjUgMyAzLjUtNC41IDQuNSA2SDVtMTYgMVY1YTIgMiAwIDAgMC0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnoiPjwvcGF0aD4KICAgICAgPC9zdmc+',
+                                          ),
+                                        ),
+                                        3 => 
+                                        array (
+                                          'type' => 'link',
+                                          'classes' => 
+                                          array (
+                                            0 => 'shop-btn',
+                                          ),
+                                          'attributes' => 
+                                          array (
+                                            'href' => '#products',
+                                          ),
+                                          'components' => 
+                                          array (
+                                            0 => 
+                                            array (
+                                              'type' => 'textnode',
+                                              'content' => 'Mua ngay →',
+                                            ),
+                                          ),
+                                        ),
+                                        4 => 
+                                        array (
+                                          'type' => 'image',
+                                          'resizable' => 
+                                          array (
+                                            'ratioDefault' => 1,
+                                          ),
+                                          'attributes' => 
+                                          array (
+                                            'src' => 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwwLDAsMC4xNSk7IHRyYW5zZm9ybTogc2NhbGUoMC43NSkiPgogICAgICAgIDxwYXRoIGQ9Ik04LjUgMTMuNWwyLjUgMyAzLjUtNC41IDQuNSA2SDVtMTYgMVY1YTIgMiAwIDAgMC0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnoiPjwvcGF0aD4KICAgICAgPC9zdmc+',
+                                          ),
+                                        ),
+                                        5 => 
+                                        array (
+                                          'type' => 'image',
+                                          'resizable' => 
+                                          array (
+                                            'ratioDefault' => 1,
+                                          ),
+                                          'attributes' => 
+                                          array (
+                                            'src' => 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwwLDAsMC4xNSk7IHRyYW5zZm9ybTogc2NhbGUoMC43NSkiPgogICAgICAgIDxwYXRoIGQ9Ik04LjUgMTMuNWwyLjUgMyAzLjUtNC41IDQuNSA2SDVtMTYgMVY1YTIgMiAwIDAgMC0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnoiPjwvcGF0aD4KICAgICAgPC9zdmc+',
+                                          ),
+                                        ),
+                                        6 => 
+                                        array (
+                                          'tagName' => 'span',
+                                          'type' => 'text',
+                                          'classes' => 
+                                          array (
+                                            0 => 'big-emoji',
+                                          ),
+                                          'components' => 
+                                          array (
+                                            0 => 
+                                            array (
+                                              'type' => 'textnode',
+                                              'content' => '🥗',
+                                            ),
+                                          ),
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ),
+                            ),
                           ),
                         ),
                       ),
@@ -4750,20 +5050,12 @@
                             ),
                             1 => 
                             array (
-                              'attributes' => 
-                              array (
-                                'id' => 'i99pjy',
-                              ),
                               'components' => 
                               array (
                                 0 => 
                                 array (
                                   'tagName' => 'b',
                                   'type' => 'text',
-                                  'attributes' => 
-                                  array (
-                                    'id' => 'id6ipb',
-                                  ),
                                   'components' => 
                                   array (
                                     0 => 
@@ -4860,10 +5152,10 @@
                     'tagName' => 'html',
                   ),
                 ),
-                'id' => 'SJXQ5yIyNEYkT0WD',
+                'id' => 'Nyn5vNPNSCCiqC0Q',
               ),
             ),
-            'id' => 'IWT8yyRSFjGVz7IM',
+            'id' => 'QLpENZ3XVpDq4Ji7',
           ),
         ),
         'symbols' => 
@@ -4879,11 +5171,11 @@
           🛒
           <span id="cartCount" class="badge orange">0</span></button><div class="cart-summary"><small>My Cart</small><strong id="cartTotal">$0.00</strong></div><a href="login.html" class="user login-link"><div aria-hidden="true" class="avatar">↗</div><span>Đăng nhập</span></a></div></div><!-- NAV --><div class="nav-wrap"><div class="container nav"><button id="categoryBtn" class="category-btn"><span>▰</span>
           All Categories
-          <span>⌄</span></button><nav id="navLinks" class="nav-links"><a href="#home" class="active">Home</a><a href="#products">Products</a><a href="#about">About</a><a href="#products" class="hot-link">Best Sales <span class="hot">Hot</span></a><a href="#promotions">Promotions</a><a href="#blogs">Blogs</a><a href="#contact">Contact</a></nav><div class="nav-right"><a href="tel:1238800555" id="i4bpp">☎ &nbsp;123456789</a><button class="gift-btn">🎁 Gift cards</button></div><button id="menuToggle" class="menu-toggle">☰</button></div></div></header><!-- MINI CATEGORY DROPDOWN --><div id="categoryDropdown" class="category-dropdown"><a href="#">🥬 Vegetables</a><a href="#">🍎 Fruits</a><a href="#">🥛 Dairy</a><a href="#">🍞 Bakery</a><a href="#">🥩 Meat</a><a href="#">🥤 Drinks</a></div><!-- HERO / BANNERS --><main id="home"><section class="hero container"><article class="banner banner-green"><div class="banner-content"><span class="sale">UP TO 20% OFF</span><h1 id="iy0gu">Freshness<br>From Nature</h1><p>Healthy choices for a better you.</p><a href="#products" class="shop-btn">See All →</a></div><div class="banner-art"><span class="big-emoji">🥗</span><span class="person">🧑‍🌾</span></div></article><article class="banner banner-lime"><div class="banner-content"><span class="sale">UP TO 20% OFF</span><h2>Change<br>Your Diet Plan</h2><p>Eat healthy. Live better.</p><a href="#products" class="shop-btn">See All →</a></div><div class="banner-art"><span class="big-emoji">🥦</span><span class="big-emoji salad">🥗</span></div></article><article class="banner banner-orange"><div class="banner-content light"><span class="sale">NATURAL FRESH</span><h2 id="ix2y0o">Vegetable<br>100% Organic</h2><p>Pure goodness in every sip.</p></div><div class="banner-art"></div></article></section><!-- CATEGORIES --><section id="products" class="section container"><div class="section-heading"><div><span class="eyebrow">SHOP BY CATEGORY</span><h2 id="ig3uwl">Popular Categories</h2></div><button class="outline-btn">View All →</button></div><div class="category-grid"><button data-filter="Vegetables" class="category-card"><span>🥬</span><strong>Vegetables</strong></button><button data-filter="Fruits" class="category-card"><span>🍓</span><strong>Fruits</strong></button><button data-filter="Dairy" class="category-card"><span>🥛</span><strong>Dairy</strong></button><button data-filter="Bakery" class="category-card"><span id="ihwafg">🥐</span><strong>Bakery</strong></button><button data-filter="Drinks" class="category-card"><span>🧃</span><strong>Drinks</strong></button><button data-filter="All" class="category-card"><span>🛍️</span><strong>All</strong></button></div></section><!-- PRODUCTS --><section class="section soft-bg"><div class="container"><div class="section-heading"><div><span class="eyebrow">OUR PRODUCTS</span><h2>Fresh Organic Products</h2></div><div class="product-tabs"><button data-filter="All" class="tab active">All</button><button data-filter="Vegetables" class="tab">Vegetables</button><button data-filter="Fruits" class="tab">Fruits</button><button data-filter="Drinks" class="tab">Drinks</button></div></div><div id="productGrid" class="product-grid"><article class="product-card"><div class="product-image"><span class="discount">18% OFF</span><span>🥦</span></div><div class="product-info"><span class="product-category">Vegetables</span><h3 class="product-title">Fresh Broccoli</h3><div class="rating">★★★★★ <span id="ikvr3f">(4.8)</span></div><div class="product-bottom"><div><span class="price">$4.90</span><span class="old-price">$6.00</span></div><button type="button" class="add-btn">+</button></div></div></article><article class="product-card"><div class="product-image"><span class="discount">15% OFF</span><span>🥕</span></div><div class="product-info"><span class="product-category">Vegetables</span><h3 class="product-title">Organic Carrot</h3><div class="rating">★★★★★ <span id="i1lybi">(4.8)</span></div><div class="product-bottom"><div><span class="price">$3.40</span><span class="old-price">$4.20</span></div><button type="button" class="add-btn">+</button></div></div></article><article class="product-card"><div class="product-image"><span class="discount">17% OFF</span><span>🍓</span></div><div class="product-info"><span class="product-category">Fruits</span><h3 class="product-title">Sweet Strawberry</h3><div class="rating">★★★★★ <span id="ik7hfj">(4.8)</span></div><div class="product-bottom"><div><span class="price">$5.80</span><span class="old-price">$7.00</span></div><button type="button" class="add-btn">+</button></div></div></article><article class="product-card"><div class="product-image"><span class="discount">12% OFF</span><span>🥑</span></div><div class="product-info"><span class="product-category">Fruits</span><h3 class="product-title">Green Avocado</h3><div class="rating">★★★★★ <span id="ivrlr2">(4.8)</span></div><div class="product-bottom"><div><span class="price">$6.20</span><span class="old-price">$7.50</span></div><button type="button" class="add-btn">+</button></div></div></article><article class="product-card"><div class="product-image"><span class="discount">10% OFF</span><span>🥛</span></div><div class="product-info"><span class="product-category">Dairy</span><h3 class="product-title">Organic Milk</h3><div class="rating">★★★★★ <span id="i7vhoq">(4.8)</span></div><div class="product-bottom"><div><span class="price">$3.90</span><span class="old-price">$4.50</span></div><button type="button" class="add-btn">+</button></div></div></article><article class="product-card"><div class="product-image"><span class="discount">8% OFF</span><span>🥐</span></div><div class="product-info"><span class="product-category">Bakery</span><h3 class="product-title">Fresh Croissant</h3><div class="rating">★★★★★ <span id="ibfy2b">(4.8)</span></div><div class="product-bottom"><div><span class="price">$2.80</span><span class="old-price">$3.40</span></div><button type="button" class="add-btn">+</button></div></div></article><article class="product-card"><div class="product-image"><span class="discount">14% OFF</span><span>🧃</span></div><div class="product-info"><span class="product-category">Drinks</span><h3 class="product-title">Orange Juice</h3><div class="rating">★★★★★ <span id="ij9mbn">(4.8)</span></div><div class="product-bottom"><div><span class="price">$4.60</span><span class="old-price">$5.50</span></div><button type="button" class="add-btn">+</button></div></div></article><article class="product-card"><div class="product-image"><span class="discount">10% OFF</span><span>🍎</span></div><div class="product-info"><span class="product-category">Fruits</span><h3 class="product-title">Red Apple</h3><div class="rating">★★★★★ <span id="i3tzjp">(4.8)</span></div><div class="product-bottom"><div><span class="price">$4.20</span><span class="old-price">$5.00</span></div><button type="button" class="add-btn">+</button></div></div></article></div></div></section><!-- PROMOTION --><section id="promotions" class="promo container"><div><span class="eyebrow">WEEKEND DEAL</span><h2>Healthy food, better life.</h2><p>Get up to 25% off selected fresh products this week.</p></div><button class="gift-btn">Shop Now →</button></section><section id="about" class="section container"><div class="about"><div><span class="eyebrow">WHY CHOOSE US</span><h2>Fresh food from trusted farms</h2><p>
+          <span>⌄</span></button><nav id="navLinks" class="nav-links"><a href="#home" class="active">Home</a><a href="#products">Products</a><a href="#about">About</a><a href="#products" class="hot-link">Best Sales <span class="hot">Hot</span></a><a href="#promotions">Promotions</a><a href="#blogs">Blogs</a><a href="#contact">Contact</a></nav><div class="nav-right"><a href="tel:1238800555">☎ &nbsp; (123) 8800-555</a><button class="gift-btn">🎁 Gift cards</button></div><button id="menuToggle" class="menu-toggle">☰</button></div></div></header><!-- MINI CATEGORY DROPDOWN --><div id="categoryDropdown" class="category-dropdown"><a href="#">🥬 Vegetables</a><a href="#">🍎 Fruits</a><a href="#">🥛 Dairy</a><a href="#">🍞 Bakery</a><a href="#">🥩 Meat</a><a href="#">🥤 Drinks</a></div><!-- HERO / BANNERS --><main id="home"><section class="hero container"><article class="banner banner-green"><div class="banner-content"><span class="sale">UP TO 20% OFF</span><h1>Freshness<br>From Nature</h1><p>Healthy choices for a better you.</p><a href="#products" class="shop-btn">See All →</a></div><div class="banner-art"><span class="big-emoji">🥗</span><span class="person">🧑‍🌾</span></div></article><article class="banner banner-lime"><div class="banner-content"><span class="sale">UP TO 20% OFF</span><h2>Change<br>Your Diet Plan</h2><p>Eat healthy. Live better.</p><a href="#products" class="shop-btn">See All →</a></div><div class="banner-art"><span class="big-emoji">🥦</span><span class="big-emoji salad">🥗</span></div></article><article class="banner banner-orange"><div class="banner-content light"><span class="sale">NATURAL FRESH</span><h2>Vegetable<br>100% Organic</h2><p>Pure goodness in every sip.</p><a href="#products" class="shop-btn">See All →</a></div><div class="banner-art"><span class="juice">🧃</span><span class="orange-fruit">🍊</span></div></article></section><!-- CATEGORIES --><section id="products" class="section container"><div class="section-heading"><div><span class="eyebrow">SHOP BY CATEGORY</span><h2>Popular Categories</h2></div><button class="outline-btn">View All →</button></div><div class="category-grid"><button data-filter="Vegetables" class="category-card"><span>🥬</span><strong>Vegetables</strong></button><button data-filter="Fruits" class="category-card"><span>🍓</span><strong>Fruits</strong></button><button data-filter="Dairy" class="category-card"><span>🥛</span><strong>Dairy</strong></button><button data-filter="Bakery" class="category-card"><span>🥐</span><strong>Bakery</strong></button><button data-filter="Drinks" class="category-card"><span>🧃</span><strong>Drinks</strong></button><button data-filter="All" class="category-card"><span>🛍️</span><strong>All</strong></button></div></section><!-- PRODUCTS --><section class="section soft-bg"><div class="container"><div class="section-heading"><div><span class="eyebrow">OUR PRODUCTS</span><h2>Fresh Organic Products</h2></div><div class="product-tabs"><button data-filter="All" class="tab active">All</button><button data-filter="Vegetables" class="tab">Vegetables</button><button data-filter="Fruits" class="tab">Fruits</button><button data-filter="Drinks" class="tab">Drinks</button></div></div><div id="productGrid" class="product-grid"><article class="product-card"><div class="product-image"><span class="discount">18% OFF</span><span>🥦</span></div><div class="product-info"><span class="product-category">Vegetables</span><h3 class="product-title">Fresh Broccoli</h3><div class="rating">★★★★★ <span id="i0lt0i">(4.8)</span></div><div class="product-bottom"><div><span class="price">$4.90</span><span class="old-price">$6.00</span></div><button type="button" class="add-btn">+</button></div></div></article><article class="product-card"><div class="product-image"><span class="discount">15% OFF</span><span>🥕</span></div><div class="product-info"><span class="product-category">Vegetables</span><h3 class="product-title">Organic Carrot</h3><div class="rating">★★★★★ <span id="ir0ujt">(4.8)</span></div><div class="product-bottom"><div><span class="price">$3.40</span><span class="old-price">$4.20</span></div><button type="button" class="add-btn">+</button></div></div></article><article class="product-card"><div class="product-image"><span class="discount">17% OFF</span><span>🍓</span></div><div class="product-info"><span class="product-category">Fruits</span><h3 class="product-title">Sweet Strawberry</h3><div class="rating">★★★★★ <span id="i25lx6">(4.8)</span></div><div class="product-bottom"><div><span class="price">$5.80</span><span class="old-price">$7.00</span></div><button type="button" class="add-btn">+</button></div></div></article><article class="product-card"><div class="product-image"><span class="discount">12% OFF</span><span>🥑</span></div><div class="product-info"><span class="product-category">Fruits</span><h3 class="product-title">Green Avocado</h3><div class="rating">★★★★★ <span id="ihr3dd">(4.8)</span></div><div class="product-bottom"><div><span class="price">$6.20</span><span class="old-price">$7.50</span></div><button type="button" class="add-btn">+</button></div></div></article><article class="product-card"><div class="product-image"><span class="discount">10% OFF</span><span>🥛</span></div><div class="product-info"><span class="product-category">Dairy</span><h3 class="product-title">Organic Milk</h3><div class="rating">★★★★★ <span id="ijbb7p">(4.8)</span></div><div class="product-bottom"><div><span class="price">$3.90</span><span class="old-price">$4.50</span></div><button type="button" class="add-btn">+</button></div></div></article><article class="product-card"><div class="product-image"><span class="discount">8% OFF</span><span>🥐</span></div><div class="product-info"><span class="product-category">Bakery</span><h3 class="product-title">Fresh Croissant</h3><div class="rating">★★★★★ <span id="i84otd">(4.8)</span></div><div class="product-bottom"><div><span class="price">$2.80</span><span class="old-price">$3.40</span></div><button type="button" class="add-btn">+</button></div></div></article><article class="product-card"><div class="product-image"><span class="discount">14% OFF</span><span>🧃</span></div><div class="product-info"><span class="product-category">Drinks</span><h3 class="product-title">Orange Juice</h3><div class="rating">★★★★★ <span id="ia4ntf">(4.8)</span></div><div class="product-bottom"><div><span class="price">$4.60</span><span class="old-price">$5.50</span></div><button type="button" class="add-btn">+</button></div></div></article><article class="product-card"><div class="product-image"><span class="discount">10% OFF</span><span>🍎</span></div><div class="product-info"><span class="product-category">Fruits</span><h3 class="product-title">Red Apple</h3><div class="rating">★★★★★ <span id="ibyyrh">(4.8)</span></div><div class="product-bottom"><div><span class="price">$4.20</span><span class="old-price">$5.00</span></div><button type="button" class="add-btn">+</button></div></div></article></div></div></section><!-- PROMOTION --><section id="promotions" class="promo container"><div><span class="eyebrow">WEEKEND DEAL</span><h2>Healthy food, better life.</h2><p>Get up to 25% off selected fresh products this week.</p></div><button class="gift-btn">Shop Now →</button></section><section id="about" class="section container"><div class="about"><div><span class="eyebrow">WHY CHOOSE US</span><h2>Fresh food from trusted farms</h2><p>
             Chúng tôi tập trung vào sản phẩm tươi, giao nhanh và trải nghiệm mua sắm đơn giản.
             Phần này bạn có thể thay bằng nội dung giới thiệu thương hiệu của mình.
-          </p></div><div class="features"><div><span>🌱</span><b>100% Organic</b><small>Selected fresh products</small></div><div><span>🚚</span><b>Fast Delivery</b><small>Quick &amp; safe shipping</small></div><div><span>💳</span><b>Secure Payment</b><small>Safe checkout process</small></div></div></div></section></main><!-- CART PANEL --><aside id="cartPanel" class="cart-panel"><div class="cart-panel-head"><h3>Your Cart</h3><button id="closeCart">✕</button></div><div id="cartItems" class="cart-items"><p class="empty-cart">Your cart is empty.</p></div><div class="cart-footer"><div><span>Total</span><strong id="panelCartTotal">$0.00</strong></div><button class="checkout-btn">Checkout</button></div></aside><div id="overlay" class="overlay"></div><footer id="contact"><div class="container footer"><div><h3>🌿 LeaFood Organic</h3><p>Fresh products for your healthy lifestyle.</p></div><div id="i99pjy"><b id="id6ipb">Contact</b><p>(123) 8800-555</p><p>hello@leafood.com</p></div><div><b>Quick Links</b><p>Products</p><p>Promotions</p></div></div></footer>',
-      'css' => '#ikvr3f{color:#9a9a9a;}#i1lybi{color:#9a9a9a;}#ik7hfj{color:#9a9a9a;}#ivrlr2{color:#9a9a9a;}#i7vhoq{color:#9a9a9a;}#ibfy2b{color:#9a9a9a;}#ij9mbn{color:#9a9a9a;}#i3tzjp{color:#9a9a9a;}#ig3uwl{font-family:Arial, Helvetica, sans-serif;}.banner.banner-orange{float:left;}',
+          </p></div><div class="features"><div><span>🌱</span><b>100% Organic</b><small>Selected fresh products</small></div><div><span>🚚</span><b>Fast Delivery</b><small>Quick &amp; safe shipping</small></div><div><span>💳</span><b>Secure Payment</b><small>Safe checkout process</small></div></div></div><p>Nội dung mới của bạn</p><section class="section container"><h2>Khám phá LeaFood</h2><p>Nội dung của bạn</p><article class="banner banner-green"><h2>Tiêu đề mới</h2><div class="banner-content"><span class="sale">NEW DEAL</span><h2>Ưu đãi mới</h2><section class="section container"><h2>Khám phá LeaFood</h2><p>Nội dung của bạn</p></section><p>Mô tả ngắn gọn tại đây.</p><a href="#products" class="shop-btn">Xem ngay →</a></div><div class="banner-art"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwwLDAsMC4xNSk7IHRyYW5zZm9ybTogc2NhbGUoMC43NSkiPgogICAgICAgIDxwYXRoIGQ9Ik04LjUgMTMuNWwyLjUgMyAzLjUtNC41IDQuNSA2SDVtMTYgMVY1YTIgMiAwIDAgMC0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnoiPjwvcGF0aD4KICAgICAgPC9zdmc+"><p>Nội dung mới của bạn</p><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwwLDAsMC4xNSk7IHRyYW5zZm9ybTogc2NhbGUoMC43NSkiPgogICAgICAgIDxwYXRoIGQ9Ik04LjUgMTMuNWwyLjUgMyAzLjUtNC41IDQuNSA2SDVtMTYgMVY1YTIgMiAwIDAgMC0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnoiPjwvcGF0aD4KICAgICAgPC9zdmc+"><a href="#products" class="shop-btn">Mua ngay →</a><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwwLDAsMC4xNSk7IHRyYW5zZm9ybTogc2NhbGUoMC43NSkiPgogICAgICAgIDxwYXRoIGQ9Ik04LjUgMTMuNWwyLjUgMyAzLjUtNC41IDQuNSA2SDVtMTYgMVY1YTIgMiAwIDAgMC0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnoiPjwvcGF0aD4KICAgICAgPC9zdmc+"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwwLDAsMC4xNSk7IHRyYW5zZm9ybTogc2NhbGUoMC43NSkiPgogICAgICAgIDxwYXRoIGQ9Ik04LjUgMTMuNWwyLjUgMyAzLjUtNC41IDQuNSA2SDVtMTYgMVY1YTIgMiAwIDAgMC0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnoiPjwvcGF0aD4KICAgICAgPC9zdmc+"><span class="big-emoji">🥗</span></div></article></section></section></main><!-- CART PANEL --><aside id="cartPanel" class="cart-panel"><div class="cart-panel-head"><h3>Your Cart</h3><button id="closeCart">✕</button></div><div id="cartItems" class="cart-items"><p class="empty-cart">Your cart is empty.</p></div><div class="cart-footer"><div><span>Total</span><strong id="panelCartTotal">$0.00</strong></div><button class="checkout-btn">Checkout</button></div></aside><div id="overlay" class="overlay"></div><footer id="contact"><div class="container footer"><div><h3>🌿 LeaFood Organic</h3><p>Fresh products for your healthy lifestyle.</p></div><div><b>Contact</b><p>(123) 8800-555</p><p>hello@leafood.com</p></div><div><b>Quick Links</b><p>Products</p><p>Promotions</p></div></div></footer>',
+      'css' => '#i0lt0i{color:#9a9a9a;}#ir0ujt{color:#9a9a9a;}#i25lx6{color:#9a9a9a;}#ihr3dd{color:#9a9a9a;}#ijbb7p{color:#9a9a9a;}#i84otd{color:#9a9a9a;}#ia4ntf{color:#9a9a9a;}#ibyyrh{color:#9a9a9a;}',
     ),
   ),
   'published' => 
@@ -5696,7 +5988,7 @@
           array (
             'selectors' => 
             array (
-              0 => '#ikvr3f',
+              0 => '#i0lt0i',
             ),
             'style' => 
             array (
@@ -5707,7 +5999,7 @@
           array (
             'selectors' => 
             array (
-              0 => '#i1lybi',
+              0 => '#ir0ujt',
             ),
             'style' => 
             array (
@@ -5718,7 +6010,7 @@
           array (
             'selectors' => 
             array (
-              0 => '#ik7hfj',
+              0 => '#i25lx6',
             ),
             'style' => 
             array (
@@ -5729,7 +6021,7 @@
           array (
             'selectors' => 
             array (
-              0 => '#ivrlr2',
+              0 => '#ihr3dd',
             ),
             'style' => 
             array (
@@ -5740,7 +6032,7 @@
           array (
             'selectors' => 
             array (
-              0 => '#i7vhoq',
+              0 => '#ijbb7p',
             ),
             'style' => 
             array (
@@ -5751,7 +6043,7 @@
           array (
             'selectors' => 
             array (
-              0 => '#ibfy2b',
+              0 => '#i84otd',
             ),
             'style' => 
             array (
@@ -5762,7 +6054,7 @@
           array (
             'selectors' => 
             array (
-              0 => '#ij9mbn',
+              0 => '#ia4ntf',
             ),
             'style' => 
             array (
@@ -5773,46 +6065,11 @@
           array (
             'selectors' => 
             array (
-              0 => '#i3tzjp',
+              0 => '#ibyyrh',
             ),
             'style' => 
             array (
               'color' => '#9a9a9a',
-            ),
-          ),
-          8 => 
-          array (
-            'selectors' => 
-            array (
-              0 => '#ig3uwl',
-            ),
-            'style' => 
-            array (
-              'font-family' => 'Arial, Helvetica, sans-serif',
-            ),
-          ),
-          9 => 
-          array (
-            'selectors' => 
-            array (
-              0 => 'banner',
-              1 => 'banner-orange',
-            ),
-            'style' => 
-            array (
-              'float' => 'left',
-            ),
-          ),
-          10 => 
-          array (
-            'selectors' => 
-            array (
-              0 => 'juice',
-            ),
-            'style' => 
-            array (
-              'float' => 'none',
-              'border' => '0px solid black',
             ),
           ),
         ),
@@ -6418,14 +6675,13 @@
                                       'attributes' => 
                                       array (
                                         'href' => 'tel:1238800555',
-                                        'id' => 'i4bpp',
                                       ),
                                       'components' => 
                                       array (
                                         0 => 
                                         array (
                                           'type' => 'textnode',
-                                          'content' => '☎  123456789',
+                                          'content' => '☎   (123) 8800-555',
                                         ),
                                       ),
                                     ),
@@ -6653,10 +6909,6 @@
                                     array (
                                       'tagName' => 'h1',
                                       'type' => 'text',
-                                      'attributes' => 
-                                      array (
-                                        'id' => 'iy0gu',
-                                      ),
                                       'components' => 
                                       array (
                                         0 => 
@@ -6937,10 +7189,6 @@
                                     array (
                                       'tagName' => 'h2',
                                       'type' => 'text',
-                                      'attributes' => 
-                                      array (
-                                        'id' => 'ix2y0o',
-                                      ),
                                       'components' => 
                                       array (
                                         0 => 
@@ -6973,6 +7221,26 @@
                                         ),
                                       ),
                                     ),
+                                    3 => 
+                                    array (
+                                      'type' => 'link',
+                                      'classes' => 
+                                      array (
+                                        0 => 'shop-btn',
+                                      ),
+                                      'attributes' => 
+                                      array (
+                                        'href' => '#products',
+                                      ),
+                                      'components' => 
+                                      array (
+                                        0 => 
+                                        array (
+                                          'type' => 'textnode',
+                                          'content' => 'See All →',
+                                        ),
+                                      ),
+                                    ),
                                   ),
                                 ),
                                 1 => 
@@ -6980,6 +7248,43 @@
                                   'classes' => 
                                   array (
                                     0 => 'banner-art',
+                                  ),
+                                  'components' => 
+                                  array (
+                                    0 => 
+                                    array (
+                                      'tagName' => 'span',
+                                      'type' => 'text',
+                                      'classes' => 
+                                      array (
+                                        0 => 'juice',
+                                      ),
+                                      'components' => 
+                                      array (
+                                        0 => 
+                                        array (
+                                          'type' => 'textnode',
+                                          'content' => '🧃',
+                                        ),
+                                      ),
+                                    ),
+                                    1 => 
+                                    array (
+                                      'tagName' => 'span',
+                                      'type' => 'text',
+                                      'classes' => 
+                                      array (
+                                        0 => 'orange-fruit',
+                                      ),
+                                      'components' => 
+                                      array (
+                                        0 => 
+                                        array (
+                                          'type' => 'textnode',
+                                          'content' => '🍊',
+                                        ),
+                                      ),
+                                    ),
                                   ),
                                 ),
                               ),
@@ -7038,10 +7343,6 @@
                                     array (
                                       'tagName' => 'h2',
                                       'type' => 'text',
-                                      'attributes' => 
-                                      array (
-                                        'id' => 'ig3uwl',
-                                      ),
                                       'components' => 
                                       array (
                                         0 => 
@@ -7220,10 +7521,6 @@
                                     array (
                                       'tagName' => 'span',
                                       'type' => 'text',
-                                      'attributes' => 
-                                      array (
-                                        'id' => 'ihwafg',
-                                      ),
                                       'components' => 
                                       array (
                                         0 => 
@@ -7621,7 +7918,7 @@
                                                   'type' => 'text',
                                                   'attributes' => 
                                                   array (
-                                                    'id' => 'ikvr3f',
+                                                    'id' => 'i0lt0i',
                                                   ),
                                                   'components' => 
                                                   array (
@@ -7820,7 +8117,7 @@
                                                   'type' => 'text',
                                                   'attributes' => 
                                                   array (
-                                                    'id' => 'i1lybi',
+                                                    'id' => 'ir0ujt',
                                                   ),
                                                   'components' => 
                                                   array (
@@ -8019,7 +8316,7 @@
                                                   'type' => 'text',
                                                   'attributes' => 
                                                   array (
-                                                    'id' => 'ik7hfj',
+                                                    'id' => 'i25lx6',
                                                   ),
                                                   'components' => 
                                                   array (
@@ -8218,7 +8515,7 @@
                                                   'type' => 'text',
                                                   'attributes' => 
                                                   array (
-                                                    'id' => 'ivrlr2',
+                                                    'id' => 'ihr3dd',
                                                   ),
                                                   'components' => 
                                                   array (
@@ -8417,7 +8714,7 @@
                                                   'type' => 'text',
                                                   'attributes' => 
                                                   array (
-                                                    'id' => 'i7vhoq',
+                                                    'id' => 'ijbb7p',
                                                   ),
                                                   'components' => 
                                                   array (
@@ -8616,7 +8913,7 @@
                                                   'type' => 'text',
                                                   'attributes' => 
                                                   array (
-                                                    'id' => 'ibfy2b',
+                                                    'id' => 'i84otd',
                                                   ),
                                                   'components' => 
                                                   array (
@@ -8815,7 +9112,7 @@
                                                   'type' => 'text',
                                                   'attributes' => 
                                                   array (
-                                                    'id' => 'ij9mbn',
+                                                    'id' => 'ia4ntf',
                                                   ),
                                                   'components' => 
                                                   array (
@@ -9014,7 +9311,7 @@
                                                   'type' => 'text',
                                                   'attributes' => 
                                                   array (
-                                                    'id' => 'i3tzjp',
+                                                    'id' => 'ibyyrh',
                                                   ),
                                                   'components' => 
                                                   array (
@@ -9416,6 +9713,301 @@
                                 ),
                               ),
                             ),
+                            1 => 
+                            array (
+                              'tagName' => 'p',
+                              'type' => 'text',
+                              'components' => 
+                              array (
+                                0 => 
+                                array (
+                                  'type' => 'textnode',
+                                  'content' => 'Nội dung mới của bạn',
+                                ),
+                              ),
+                            ),
+                            2 => 
+                            array (
+                              'tagName' => 'section',
+                              'classes' => 
+                              array (
+                                0 => 'section',
+                                1 => 'container',
+                              ),
+                              'components' => 
+                              array (
+                                0 => 
+                                array (
+                                  'tagName' => 'h2',
+                                  'type' => 'text',
+                                  'components' => 
+                                  array (
+                                    0 => 
+                                    array (
+                                      'type' => 'textnode',
+                                      'content' => 'Khám phá LeaFood',
+                                    ),
+                                  ),
+                                ),
+                                1 => 
+                                array (
+                                  'tagName' => 'p',
+                                  'type' => 'text',
+                                  'components' => 
+                                  array (
+                                    0 => 
+                                    array (
+                                      'type' => 'textnode',
+                                      'content' => 'Nội dung của bạn',
+                                    ),
+                                  ),
+                                ),
+                                2 => 
+                                array (
+                                  'tagName' => 'article',
+                                  'classes' => 
+                                  array (
+                                    0 => 'banner',
+                                    1 => 'banner-green',
+                                  ),
+                                  'components' => 
+                                  array (
+                                    0 => 
+                                    array (
+                                      'tagName' => 'h2',
+                                      'type' => 'text',
+                                      'components' => 
+                                      array (
+                                        0 => 
+                                        array (
+                                          'type' => 'textnode',
+                                          'content' => 'Tiêu đề mới',
+                                        ),
+                                      ),
+                                    ),
+                                    1 => 
+                                    array (
+                                      'classes' => 
+                                      array (
+                                        0 => 'banner-content',
+                                      ),
+                                      'components' => 
+                                      array (
+                                        0 => 
+                                        array (
+                                          'tagName' => 'span',
+                                          'type' => 'text',
+                                          'classes' => 
+                                          array (
+                                            0 => 'sale',
+                                          ),
+                                          'components' => 
+                                          array (
+                                            0 => 
+                                            array (
+                                              'type' => 'textnode',
+                                              'content' => 'NEW DEAL',
+                                            ),
+                                          ),
+                                        ),
+                                        1 => 
+                                        array (
+                                          'tagName' => 'h2',
+                                          'type' => 'text',
+                                          'components' => 
+                                          array (
+                                            0 => 
+                                            array (
+                                              'type' => 'textnode',
+                                              'content' => 'Ưu đãi mới',
+                                            ),
+                                          ),
+                                        ),
+                                        2 => 
+                                        array (
+                                          'tagName' => 'section',
+                                          'classes' => 
+                                          array (
+                                            0 => 'section',
+                                            1 => 'container',
+                                          ),
+                                          'components' => 
+                                          array (
+                                            0 => 
+                                            array (
+                                              'tagName' => 'h2',
+                                              'type' => 'text',
+                                              'components' => 
+                                              array (
+                                                0 => 
+                                                array (
+                                                  'type' => 'textnode',
+                                                  'content' => 'Khám phá LeaFood',
+                                                ),
+                                              ),
+                                            ),
+                                            1 => 
+                                            array (
+                                              'tagName' => 'p',
+                                              'type' => 'text',
+                                              'components' => 
+                                              array (
+                                                0 => 
+                                                array (
+                                                  'type' => 'textnode',
+                                                  'content' => 'Nội dung của bạn',
+                                                ),
+                                              ),
+                                            ),
+                                          ),
+                                        ),
+                                        3 => 
+                                        array (
+                                          'tagName' => 'p',
+                                          'type' => 'text',
+                                          'components' => 
+                                          array (
+                                            0 => 
+                                            array (
+                                              'type' => 'textnode',
+                                              'content' => 'Mô tả ngắn gọn tại đây.',
+                                            ),
+                                          ),
+                                        ),
+                                        4 => 
+                                        array (
+                                          'type' => 'link',
+                                          'classes' => 
+                                          array (
+                                            0 => 'shop-btn',
+                                          ),
+                                          'attributes' => 
+                                          array (
+                                            'href' => '#products',
+                                          ),
+                                          'components' => 
+                                          array (
+                                            0 => 
+                                            array (
+                                              'type' => 'textnode',
+                                              'content' => 'Xem ngay →',
+                                            ),
+                                          ),
+                                        ),
+                                      ),
+                                    ),
+                                    2 => 
+                                    array (
+                                      'classes' => 
+                                      array (
+                                        0 => 'banner-art',
+                                      ),
+                                      'components' => 
+                                      array (
+                                        0 => 
+                                        array (
+                                          'type' => 'image',
+                                          'resizable' => 
+                                          array (
+                                            'ratioDefault' => 1,
+                                          ),
+                                          'attributes' => 
+                                          array (
+                                            'src' => 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwwLDAsMC4xNSk7IHRyYW5zZm9ybTogc2NhbGUoMC43NSkiPgogICAgICAgIDxwYXRoIGQ9Ik04LjUgMTMuNWwyLjUgMyAzLjUtNC41IDQuNSA2SDVtMTYgMVY1YTIgMiAwIDAgMC0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnoiPjwvcGF0aD4KICAgICAgPC9zdmc+',
+                                          ),
+                                        ),
+                                        1 => 
+                                        array (
+                                          'tagName' => 'p',
+                                          'type' => 'text',
+                                          'components' => 
+                                          array (
+                                            0 => 
+                                            array (
+                                              'type' => 'textnode',
+                                              'content' => 'Nội dung mới của bạn',
+                                            ),
+                                          ),
+                                        ),
+                                        2 => 
+                                        array (
+                                          'type' => 'image',
+                                          'resizable' => 
+                                          array (
+                                            'ratioDefault' => 1,
+                                          ),
+                                          'attributes' => 
+                                          array (
+                                            'src' => 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwwLDAsMC4xNSk7IHRyYW5zZm9ybTogc2NhbGUoMC43NSkiPgogICAgICAgIDxwYXRoIGQ9Ik04LjUgMTMuNWwyLjUgMyAzLjUtNC41IDQuNSA2SDVtMTYgMVY1YTIgMiAwIDAgMC0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnoiPjwvcGF0aD4KICAgICAgPC9zdmc+',
+                                          ),
+                                        ),
+                                        3 => 
+                                        array (
+                                          'type' => 'link',
+                                          'classes' => 
+                                          array (
+                                            0 => 'shop-btn',
+                                          ),
+                                          'attributes' => 
+                                          array (
+                                            'href' => '#products',
+                                          ),
+                                          'components' => 
+                                          array (
+                                            0 => 
+                                            array (
+                                              'type' => 'textnode',
+                                              'content' => 'Mua ngay →',
+                                            ),
+                                          ),
+                                        ),
+                                        4 => 
+                                        array (
+                                          'type' => 'image',
+                                          'resizable' => 
+                                          array (
+                                            'ratioDefault' => 1,
+                                          ),
+                                          'attributes' => 
+                                          array (
+                                            'src' => 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwwLDAsMC4xNSk7IHRyYW5zZm9ybTogc2NhbGUoMC43NSkiPgogICAgICAgIDxwYXRoIGQ9Ik04LjUgMTMuNWwyLjUgMyAzLjUtNC41IDQuNSA2SDVtMTYgMVY1YTIgMiAwIDAgMC0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnoiPjwvcGF0aD4KICAgICAgPC9zdmc+',
+                                          ),
+                                        ),
+                                        5 => 
+                                        array (
+                                          'type' => 'image',
+                                          'resizable' => 
+                                          array (
+                                            'ratioDefault' => 1,
+                                          ),
+                                          'attributes' => 
+                                          array (
+                                            'src' => 'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwwLDAsMC4xNSk7IHRyYW5zZm9ybTogc2NhbGUoMC43NSkiPgogICAgICAgIDxwYXRoIGQ9Ik04LjUgMTMuNWwyLjUgMyAzLjUtNC41IDQuNSA2SDVtMTYgMVY1YTIgMiAwIDAgMC0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnoiPjwvcGF0aD4KICAgICAgPC9zdmc+',
+                                          ),
+                                        ),
+                                        6 => 
+                                        array (
+                                          'tagName' => 'span',
+                                          'type' => 'text',
+                                          'classes' => 
+                                          array (
+                                            0 => 'big-emoji',
+                                          ),
+                                          'components' => 
+                                          array (
+                                            0 => 
+                                            array (
+                                              'type' => 'textnode',
+                                              'content' => '🥗',
+                                            ),
+                                          ),
+                                        ),
+                                      ),
+                                    ),
+                                  ),
+                                ),
+                              ),
+                            ),
                           ),
                         ),
                       ),
@@ -9637,20 +10229,12 @@
                             ),
                             1 => 
                             array (
-                              'attributes' => 
-                              array (
-                                'id' => 'i99pjy',
-                              ),
                               'components' => 
                               array (
                                 0 => 
                                 array (
                                   'tagName' => 'b',
                                   'type' => 'text',
-                                  'attributes' => 
-                                  array (
-                                    'id' => 'id6ipb',
-                                  ),
                                   'components' => 
                                   array (
                                     0 => 
@@ -9747,10 +10331,10 @@
                     'tagName' => 'html',
                   ),
                 ),
-                'id' => 'SJXQ5yIyNEYkT0WD',
+                'id' => 'Nyn5vNPNSCCiqC0Q',
               ),
             ),
-            'id' => 'IWT8yyRSFjGVz7IM',
+            'id' => 'QLpENZ3XVpDq4Ji7',
           ),
         ),
         'symbols' => 
@@ -9766,11 +10350,11 @@
           🛒
           <span id="cartCount" class="badge orange">0</span></button><div class="cart-summary"><small>My Cart</small><strong id="cartTotal">$0.00</strong></div><a href="login.html" class="user login-link"><div aria-hidden="true" class="avatar">↗</div><span>Đăng nhập</span></a></div></div><!-- NAV --><div class="nav-wrap"><div class="container nav"><button id="categoryBtn" class="category-btn"><span>▰</span>
           All Categories
-          <span>⌄</span></button><nav id="navLinks" class="nav-links"><a href="#home" class="active">Home</a><a href="#products">Products</a><a href="#about">About</a><a href="#products" class="hot-link">Best Sales <span class="hot">Hot</span></a><a href="#promotions">Promotions</a><a href="#blogs">Blogs</a><a href="#contact">Contact</a></nav><div class="nav-right"><a href="tel:1238800555" id="i4bpp">☎ &nbsp;123456789</a><button class="gift-btn">🎁 Gift cards</button></div><button id="menuToggle" class="menu-toggle">☰</button></div></div></header><!-- MINI CATEGORY DROPDOWN --><div id="categoryDropdown" class="category-dropdown"><a href="#">🥬 Vegetables</a><a href="#">🍎 Fruits</a><a href="#">🥛 Dairy</a><a href="#">🍞 Bakery</a><a href="#">🥩 Meat</a><a href="#">🥤 Drinks</a></div><!-- HERO / BANNERS --><main id="home"><section class="hero container"><article class="banner banner-green"><div class="banner-content"><span class="sale">UP TO 20% OFF</span><h1 id="iy0gu">Freshness<br>From Nature</h1><p>Healthy choices for a better you.</p><a href="#products" class="shop-btn">See All →</a></div><div class="banner-art"><span class="big-emoji">🥗</span><span class="person">🧑‍🌾</span></div></article><article class="banner banner-lime"><div class="banner-content"><span class="sale">UP TO 20% OFF</span><h2>Change<br>Your Diet Plan</h2><p>Eat healthy. Live better.</p><a href="#products" class="shop-btn">See All →</a></div><div class="banner-art"><span class="big-emoji">🥦</span><span class="big-emoji salad">🥗</span></div></article><article class="banner banner-orange"><div class="banner-content light"><span class="sale">NATURAL FRESH</span><h2 id="ix2y0o">Vegetable<br>100% Organic</h2><p>Pure goodness in every sip.</p></div><div class="banner-art"></div></article></section><!-- CATEGORIES --><section id="products" class="section container"><div class="section-heading"><div><span class="eyebrow">SHOP BY CATEGORY</span><h2 id="ig3uwl">Popular Categories</h2></div><button class="outline-btn">View All →</button></div><div class="category-grid"><button data-filter="Vegetables" class="category-card"><span>🥬</span><strong>Vegetables</strong></button><button data-filter="Fruits" class="category-card"><span>🍓</span><strong>Fruits</strong></button><button data-filter="Dairy" class="category-card"><span>🥛</span><strong>Dairy</strong></button><button data-filter="Bakery" class="category-card"><span id="ihwafg">🥐</span><strong>Bakery</strong></button><button data-filter="Drinks" class="category-card"><span>🧃</span><strong>Drinks</strong></button><button data-filter="All" class="category-card"><span>🛍️</span><strong>All</strong></button></div></section><!-- PRODUCTS --><section class="section soft-bg"><div class="container"><div class="section-heading"><div><span class="eyebrow">OUR PRODUCTS</span><h2>Fresh Organic Products</h2></div><div class="product-tabs"><button data-filter="All" class="tab active">All</button><button data-filter="Vegetables" class="tab">Vegetables</button><button data-filter="Fruits" class="tab">Fruits</button><button data-filter="Drinks" class="tab">Drinks</button></div></div><div id="productGrid" class="product-grid"><article class="product-card"><div class="product-image"><span class="discount">18% OFF</span><span>🥦</span></div><div class="product-info"><span class="product-category">Vegetables</span><h3 class="product-title">Fresh Broccoli</h3><div class="rating">★★★★★ <span id="ikvr3f">(4.8)</span></div><div class="product-bottom"><div><span class="price">$4.90</span><span class="old-price">$6.00</span></div><button type="button" class="add-btn">+</button></div></div></article><article class="product-card"><div class="product-image"><span class="discount">15% OFF</span><span>🥕</span></div><div class="product-info"><span class="product-category">Vegetables</span><h3 class="product-title">Organic Carrot</h3><div class="rating">★★★★★ <span id="i1lybi">(4.8)</span></div><div class="product-bottom"><div><span class="price">$3.40</span><span class="old-price">$4.20</span></div><button type="button" class="add-btn">+</button></div></div></article><article class="product-card"><div class="product-image"><span class="discount">17% OFF</span><span>🍓</span></div><div class="product-info"><span class="product-category">Fruits</span><h3 class="product-title">Sweet Strawberry</h3><div class="rating">★★★★★ <span id="ik7hfj">(4.8)</span></div><div class="product-bottom"><div><span class="price">$5.80</span><span class="old-price">$7.00</span></div><button type="button" class="add-btn">+</button></div></div></article><article class="product-card"><div class="product-image"><span class="discount">12% OFF</span><span>🥑</span></div><div class="product-info"><span class="product-category">Fruits</span><h3 class="product-title">Green Avocado</h3><div class="rating">★★★★★ <span id="ivrlr2">(4.8)</span></div><div class="product-bottom"><div><span class="price">$6.20</span><span class="old-price">$7.50</span></div><button type="button" class="add-btn">+</button></div></div></article><article class="product-card"><div class="product-image"><span class="discount">10% OFF</span><span>🥛</span></div><div class="product-info"><span class="product-category">Dairy</span><h3 class="product-title">Organic Milk</h3><div class="rating">★★★★★ <span id="i7vhoq">(4.8)</span></div><div class="product-bottom"><div><span class="price">$3.90</span><span class="old-price">$4.50</span></div><button type="button" class="add-btn">+</button></div></div></article><article class="product-card"><div class="product-image"><span class="discount">8% OFF</span><span>🥐</span></div><div class="product-info"><span class="product-category">Bakery</span><h3 class="product-title">Fresh Croissant</h3><div class="rating">★★★★★ <span id="ibfy2b">(4.8)</span></div><div class="product-bottom"><div><span class="price">$2.80</span><span class="old-price">$3.40</span></div><button type="button" class="add-btn">+</button></div></div></article><article class="product-card"><div class="product-image"><span class="discount">14% OFF</span><span>🧃</span></div><div class="product-info"><span class="product-category">Drinks</span><h3 class="product-title">Orange Juice</h3><div class="rating">★★★★★ <span id="ij9mbn">(4.8)</span></div><div class="product-bottom"><div><span class="price">$4.60</span><span class="old-price">$5.50</span></div><button type="button" class="add-btn">+</button></div></div></article><article class="product-card"><div class="product-image"><span class="discount">10% OFF</span><span>🍎</span></div><div class="product-info"><span class="product-category">Fruits</span><h3 class="product-title">Red Apple</h3><div class="rating">★★★★★ <span id="i3tzjp">(4.8)</span></div><div class="product-bottom"><div><span class="price">$4.20</span><span class="old-price">$5.00</span></div><button type="button" class="add-btn">+</button></div></div></article></div></div></section><!-- PROMOTION --><section id="promotions" class="promo container"><div><span class="eyebrow">WEEKEND DEAL</span><h2>Healthy food, better life.</h2><p>Get up to 25% off selected fresh products this week.</p></div><button class="gift-btn">Shop Now →</button></section><section id="about" class="section container"><div class="about"><div><span class="eyebrow">WHY CHOOSE US</span><h2>Fresh food from trusted farms</h2><p>
+          <span>⌄</span></button><nav id="navLinks" class="nav-links"><a href="#home" class="active">Home</a><a href="#products">Products</a><a href="#about">About</a><a href="#products" class="hot-link">Best Sales <span class="hot">Hot</span></a><a href="#promotions">Promotions</a><a href="#blogs">Blogs</a><a href="#contact">Contact</a></nav><div class="nav-right"><a href="tel:1238800555">☎ &nbsp; (123) 8800-555</a><button class="gift-btn">🎁 Gift cards</button></div><button id="menuToggle" class="menu-toggle">☰</button></div></div></header><!-- MINI CATEGORY DROPDOWN --><div id="categoryDropdown" class="category-dropdown"><a href="#">🥬 Vegetables</a><a href="#">🍎 Fruits</a><a href="#">🥛 Dairy</a><a href="#">🍞 Bakery</a><a href="#">🥩 Meat</a><a href="#">🥤 Drinks</a></div><!-- HERO / BANNERS --><main id="home"><section class="hero container"><article class="banner banner-green"><div class="banner-content"><span class="sale">UP TO 20% OFF</span><h1>Freshness<br>From Nature</h1><p>Healthy choices for a better you.</p><a href="#products" class="shop-btn">See All →</a></div><div class="banner-art"><span class="big-emoji">🥗</span><span class="person">🧑‍🌾</span></div></article><article class="banner banner-lime"><div class="banner-content"><span class="sale">UP TO 20% OFF</span><h2>Change<br>Your Diet Plan</h2><p>Eat healthy. Live better.</p><a href="#products" class="shop-btn">See All →</a></div><div class="banner-art"><span class="big-emoji">🥦</span><span class="big-emoji salad">🥗</span></div></article><article class="banner banner-orange"><div class="banner-content light"><span class="sale">NATURAL FRESH</span><h2>Vegetable<br>100% Organic</h2><p>Pure goodness in every sip.</p><a href="#products" class="shop-btn">See All →</a></div><div class="banner-art"><span class="juice">🧃</span><span class="orange-fruit">🍊</span></div></article></section><!-- CATEGORIES --><section id="products" class="section container"><div class="section-heading"><div><span class="eyebrow">SHOP BY CATEGORY</span><h2>Popular Categories</h2></div><button class="outline-btn">View All →</button></div><div class="category-grid"><button data-filter="Vegetables" class="category-card"><span>🥬</span><strong>Vegetables</strong></button><button data-filter="Fruits" class="category-card"><span>🍓</span><strong>Fruits</strong></button><button data-filter="Dairy" class="category-card"><span>🥛</span><strong>Dairy</strong></button><button data-filter="Bakery" class="category-card"><span>🥐</span><strong>Bakery</strong></button><button data-filter="Drinks" class="category-card"><span>🧃</span><strong>Drinks</strong></button><button data-filter="All" class="category-card"><span>🛍️</span><strong>All</strong></button></div></section><!-- PRODUCTS --><section class="section soft-bg"><div class="container"><div class="section-heading"><div><span class="eyebrow">OUR PRODUCTS</span><h2>Fresh Organic Products</h2></div><div class="product-tabs"><button data-filter="All" class="tab active">All</button><button data-filter="Vegetables" class="tab">Vegetables</button><button data-filter="Fruits" class="tab">Fruits</button><button data-filter="Drinks" class="tab">Drinks</button></div></div><div id="productGrid" class="product-grid"><article class="product-card"><div class="product-image"><span class="discount">18% OFF</span><span>🥦</span></div><div class="product-info"><span class="product-category">Vegetables</span><h3 class="product-title">Fresh Broccoli</h3><div class="rating">★★★★★ <span id="i0lt0i">(4.8)</span></div><div class="product-bottom"><div><span class="price">$4.90</span><span class="old-price">$6.00</span></div><button type="button" class="add-btn">+</button></div></div></article><article class="product-card"><div class="product-image"><span class="discount">15% OFF</span><span>🥕</span></div><div class="product-info"><span class="product-category">Vegetables</span><h3 class="product-title">Organic Carrot</h3><div class="rating">★★★★★ <span id="ir0ujt">(4.8)</span></div><div class="product-bottom"><div><span class="price">$3.40</span><span class="old-price">$4.20</span></div><button type="button" class="add-btn">+</button></div></div></article><article class="product-card"><div class="product-image"><span class="discount">17% OFF</span><span>🍓</span></div><div class="product-info"><span class="product-category">Fruits</span><h3 class="product-title">Sweet Strawberry</h3><div class="rating">★★★★★ <span id="i25lx6">(4.8)</span></div><div class="product-bottom"><div><span class="price">$5.80</span><span class="old-price">$7.00</span></div><button type="button" class="add-btn">+</button></div></div></article><article class="product-card"><div class="product-image"><span class="discount">12% OFF</span><span>🥑</span></div><div class="product-info"><span class="product-category">Fruits</span><h3 class="product-title">Green Avocado</h3><div class="rating">★★★★★ <span id="ihr3dd">(4.8)</span></div><div class="product-bottom"><div><span class="price">$6.20</span><span class="old-price">$7.50</span></div><button type="button" class="add-btn">+</button></div></div></article><article class="product-card"><div class="product-image"><span class="discount">10% OFF</span><span>🥛</span></div><div class="product-info"><span class="product-category">Dairy</span><h3 class="product-title">Organic Milk</h3><div class="rating">★★★★★ <span id="ijbb7p">(4.8)</span></div><div class="product-bottom"><div><span class="price">$3.90</span><span class="old-price">$4.50</span></div><button type="button" class="add-btn">+</button></div></div></article><article class="product-card"><div class="product-image"><span class="discount">8% OFF</span><span>🥐</span></div><div class="product-info"><span class="product-category">Bakery</span><h3 class="product-title">Fresh Croissant</h3><div class="rating">★★★★★ <span id="i84otd">(4.8)</span></div><div class="product-bottom"><div><span class="price">$2.80</span><span class="old-price">$3.40</span></div><button type="button" class="add-btn">+</button></div></div></article><article class="product-card"><div class="product-image"><span class="discount">14% OFF</span><span>🧃</span></div><div class="product-info"><span class="product-category">Drinks</span><h3 class="product-title">Orange Juice</h3><div class="rating">★★★★★ <span id="ia4ntf">(4.8)</span></div><div class="product-bottom"><div><span class="price">$4.60</span><span class="old-price">$5.50</span></div><button type="button" class="add-btn">+</button></div></div></article><article class="product-card"><div class="product-image"><span class="discount">10% OFF</span><span>🍎</span></div><div class="product-info"><span class="product-category">Fruits</span><h3 class="product-title">Red Apple</h3><div class="rating">★★★★★ <span id="ibyyrh">(4.8)</span></div><div class="product-bottom"><div><span class="price">$4.20</span><span class="old-price">$5.00</span></div><button type="button" class="add-btn">+</button></div></div></article></div></div></section><!-- PROMOTION --><section id="promotions" class="promo container"><div><span class="eyebrow">WEEKEND DEAL</span><h2>Healthy food, better life.</h2><p>Get up to 25% off selected fresh products this week.</p></div><button class="gift-btn">Shop Now →</button></section><section id="about" class="section container"><div class="about"><div><span class="eyebrow">WHY CHOOSE US</span><h2>Fresh food from trusted farms</h2><p>
             Chúng tôi tập trung vào sản phẩm tươi, giao nhanh và trải nghiệm mua sắm đơn giản.
             Phần này bạn có thể thay bằng nội dung giới thiệu thương hiệu của mình.
-          </p></div><div class="features"><div><span>🌱</span><b>100% Organic</b><small>Selected fresh products</small></div><div><span>🚚</span><b>Fast Delivery</b><small>Quick &amp; safe shipping</small></div><div><span>💳</span><b>Secure Payment</b><small>Safe checkout process</small></div></div></div></section></main><!-- CART PANEL --><aside id="cartPanel" class="cart-panel"><div class="cart-panel-head"><h3>Your Cart</h3><button id="closeCart">✕</button></div><div id="cartItems" class="cart-items"><p class="empty-cart">Your cart is empty.</p></div><div class="cart-footer"><div><span>Total</span><strong id="panelCartTotal">$0.00</strong></div><button class="checkout-btn">Checkout</button></div></aside><div id="overlay" class="overlay"></div><footer id="contact"><div class="container footer"><div><h3>🌿 LeaFood Organic</h3><p>Fresh products for your healthy lifestyle.</p></div><div id="i99pjy"><b id="id6ipb">Contact</b><p>(123) 8800-555</p><p>hello@leafood.com</p></div><div><b>Quick Links</b><p>Products</p><p>Promotions</p></div></div></footer>',
-      'css' => '#ikvr3f{color:#9a9a9a;}#i1lybi{color:#9a9a9a;}#ik7hfj{color:#9a9a9a;}#ivrlr2{color:#9a9a9a;}#i7vhoq{color:#9a9a9a;}#ibfy2b{color:#9a9a9a;}#ij9mbn{color:#9a9a9a;}#i3tzjp{color:#9a9a9a;}#ig3uwl{font-family:Arial, Helvetica, sans-serif;}.banner.banner-orange{float:left;}',
+          </p></div><div class="features"><div><span>🌱</span><b>100% Organic</b><small>Selected fresh products</small></div><div><span>🚚</span><b>Fast Delivery</b><small>Quick &amp; safe shipping</small></div><div><span>💳</span><b>Secure Payment</b><small>Safe checkout process</small></div></div></div><p>Nội dung mới của bạn</p><section class="section container"><h2>Khám phá LeaFood</h2><p>Nội dung của bạn</p><article class="banner banner-green"><h2>Tiêu đề mới</h2><div class="banner-content"><span class="sale">NEW DEAL</span><h2>Ưu đãi mới</h2><section class="section container"><h2>Khám phá LeaFood</h2><p>Nội dung của bạn</p></section><p>Mô tả ngắn gọn tại đây.</p><a href="#products" class="shop-btn">Xem ngay →</a></div><div class="banner-art"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwwLDAsMC4xNSk7IHRyYW5zZm9ybTogc2NhbGUoMC43NSkiPgogICAgICAgIDxwYXRoIGQ9Ik04LjUgMTMuNWwyLjUgMyAzLjUtNC41IDQuNSA2SDVtMTYgMVY1YTIgMiAwIDAgMC0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnoiPjwvcGF0aD4KICAgICAgPC9zdmc+"><p>Nội dung mới của bạn</p><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwwLDAsMC4xNSk7IHRyYW5zZm9ybTogc2NhbGUoMC43NSkiPgogICAgICAgIDxwYXRoIGQ9Ik04LjUgMTMuNWwyLjUgMyAzLjUtNC41IDQuNSA2SDVtMTYgMVY1YTIgMiAwIDAgMC0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnoiPjwvcGF0aD4KICAgICAgPC9zdmc+"><a href="#products" class="shop-btn">Mua ngay →</a><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwwLDAsMC4xNSk7IHRyYW5zZm9ybTogc2NhbGUoMC43NSkiPgogICAgICAgIDxwYXRoIGQ9Ik04LjUgMTMuNWwyLjUgMyAzLjUtNC41IDQuNSA2SDVtMTYgMVY1YTIgMiAwIDAgMC0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnoiPjwvcGF0aD4KICAgICAgPC9zdmc+"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMDAiIHZpZXdCb3g9IjAgMCAyNCAyNCIgc3R5bGU9ImZpbGw6IHJnYmEoMCwwLDAsMC4xNSk7IHRyYW5zZm9ybTogc2NhbGUoMC43NSkiPgogICAgICAgIDxwYXRoIGQ9Ik04LjUgMTMuNWwyLjUgMyAzLjUtNC41IDQuNSA2SDVtMTYgMVY1YTIgMiAwIDAgMC0yLTJINWMtMS4xIDAtMiAuOS0yIDJ2MTRjMCAxLjEuOSAyIDIgMmgxNGMxLjEgMCAyLS45IDItMnoiPjwvcGF0aD4KICAgICAgPC9zdmc+"><span class="big-emoji">🥗</span></div></article></section></section></main><!-- CART PANEL --><aside id="cartPanel" class="cart-panel"><div class="cart-panel-head"><h3>Your Cart</h3><button id="closeCart">✕</button></div><div id="cartItems" class="cart-items"><p class="empty-cart">Your cart is empty.</p></div><div class="cart-footer"><div><span>Total</span><strong id="panelCartTotal">$0.00</strong></div><button class="checkout-btn">Checkout</button></div></aside><div id="overlay" class="overlay"></div><footer id="contact"><div class="container footer"><div><h3>🌿 LeaFood Organic</h3><p>Fresh products for your healthy lifestyle.</p></div><div><b>Contact</b><p>(123) 8800-555</p><p>hello@leafood.com</p></div><div><b>Quick Links</b><p>Products</p><p>Promotions</p></div></div></footer>',
+      'css' => '#i0lt0i{color:#9a9a9a;}#ir0ujt{color:#9a9a9a;}#i25lx6{color:#9a9a9a;}#ihr3dd{color:#9a9a9a;}#ijbb7p{color:#9a9a9a;}#i84otd{color:#9a9a9a;}#ia4ntf{color:#9a9a9a;}#ibyyrh{color:#9a9a9a;}',
     ),
   ),
 );
